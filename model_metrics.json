@@ -1,0 +1,112 @@
+{
+  "accuracy": 0.9976696766676376,
+  "classification_report": {
+    "benign": {
+      "precision": 0.9970745977571916,
+      "recall": 1.0,
+      "f1-score": 0.99853515625,
+      "support": 2045.0
+    },
+    "bot": {
+      "precision": 1.0,
+      "recall": 0.9955156950672646,
+      "f1-score": 0.9977528089887641,
+      "support": 223.0
+    },
+    "ddos": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 48.0
+    },
+    "dos goldeneye": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 88.0
+    },
+    "dos hulk": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 129.0
+    },
+    "dos slowhttptest": {
+      "precision": 1.0,
+      "recall": 0.992,
+      "f1-score": 0.9959839357429718,
+      "support": 250.0
+    },
+    "dos slowloris": {
+      "precision": 0.9935483870967742,
+      "recall": 0.9935483870967742,
+      "f1-score": 0.9935483870967742,
+      "support": 155.0
+    },
+    "ftp-patator": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 144.0
+    },
+    "infiltration": {
+      "precision": 1.0,
+      "recall": 0.7142857142857143,
+      "f1-score": 0.8333333333333334,
+      "support": 7.0
+    },
+    "nan": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 80.0
+    },
+    "portscan": {
+      "precision": 1.0,
+      "recall": 0.9736842105263158,
+      "f1-score": 0.9866666666666667,
+      "support": 38.0
+    },
+    "ssh-patator": {
+      "precision": 1.0,
+      "recall": 0.9942528735632183,
+      "f1-score": 0.9971181556195965,
+      "support": 174.0
+    },
+    "web attack \ufffd brute force": {
+      "precision": 0.9811320754716981,
+      "recall": 1.0,
+      "f1-score": 0.9904761904761905,
+      "support": 52.0
+    },
+    "accuracy": 0.9976696766676376,
+    "macro avg": {
+      "precision": 0.9978273123327435,
+      "recall": 0.9740989908107143,
+      "f1-score": 0.9841088180134074,
+      "support": 3433.0
+    },
+    "weighted avg": {
+      "precision": 0.9976802855630601,
+      "recall": 0.9976696766676376,
+      "f1-score": 0.9976199366503715,
+      "support": 3433.0
+    }
+  },
+  "classes": [
+    "benign",
+    "bot",
+    "ddos",
+    "dos goldeneye",
+    "dos hulk",
+    "dos slowhttptest",
+    "dos slowloris",
+    "ftp-patator",
+    "infiltration",
+    "nan",
+    "portscan",
+    "ssh-patator",
+    "web attack \ufffd brute force"
+  ],
+  "training_timestamp": "2025-11-05T07:40:39.464889"
+}
